@@ -1,0 +1,45 @@
+
+[0x394cfcd0775a1adbD95C29362B61147343c87De4, 0x1127276076A30922484Aa85da548A4c459CeEb48]
+
+
+
+!!!!!
+
+
+        Informar el Bug de no poder usar Core Wallet en remix
+        Informar el Bug de no poder usar Core Wallet en remix
+        Informar el Bug de no poder usar Core Wallet en remix
+        Informar el Bug de no poder usar Core Wallet en remix
+        Informar el Bug de no poder usar Core Wallet en remix
+
+
+
+        !!!!!
+
+
+
+
+Cargar Variables de entorno.
+
+comando --> "source .env"
+
+
+---------------------------------------
+
+
+Comandos para deployar:
+
+forge script script/DeployVotingSystem.sol --rpc-url $RPC_URL --broadcast --private-key $PRIVATE_KEY --sender 0x1127276076A30922484Aa85da548A4c459CeEb48
+
+
+
+
+Comandos para interactuar;
+
+GetOwner:
+forge script script/InteractVotingSystem.sol:InteractGetOwnerFunction --rpc-url $RPC_URL --broadcast --private-key $PRIVATE_KEY --sender 0x1127276076A30922484Aa85da548A4c459CeEb48
+
+
+
+AddVoters:
+forge script script/InteractVotingSystem.sol:InteractAddVoter --sig "run()" --rpc-url $RPC_URL --broadcast --private-key $PRIVATE_KEY

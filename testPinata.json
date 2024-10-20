@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Trioxido de arsenico",
+        "category": "Oncologico",
+        "fecha_creacion": "19/10/2024",
+        "fecha_vencimiento": "19/10/2025",
+        "empresa_creadora": "Laboratorios Baires",
+        "empresa_sucursal": "Baires Zona Oeste",
+        "lote": 155,
+        "img": "../../images/Trioxido de arsenico.jpeg"
+    },
+    {
+        "name": "Clonazepam",
+        "category": "Psiquiatrico",
+        "fecha_creacion": "19/10/2024",
+        "fecha_vencimiento": "19/10/2027",
+        "empresa_creadora": "Ava labs",
+        "empresa_sucursal": "Latam Colombia",
+        "lote": 30,
+        "img": "../../images/Diazepam.jpeg"
+    },
+    {
+        "name": "Diazepam",
+        "category": "Psiquiatrico",
+        "fecha_creacion": "19/10/2024",
+        "fecha_vencimiento": "19/10/2027",
+        "empresa_creadora": "Sur Argenta",
+        "empresa_sucursal": "Sucursal unica: Tierra del fuego",
+        "lote": 30,
+        "img": "../../images/Clonazepam.jpeg"
+    }
+]
